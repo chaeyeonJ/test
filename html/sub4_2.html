@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title> 실버세대를 위한 앱 가이드:길라잡이 </title>
+	<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/sub4_2.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script>
+	var ch1 = 0;
+	function change(){
+		
+		ch1++;
+
+		if(ch1%2==0){
+			document.getElementById("talk1").src = "../images/talk.png";
+		}
+		else{
+			document.getElementById("talk1").src = "../images/talk_1.png";
+		}
+
+	}
+	</script>
+
+</head>
+<body>
+	<div class="contentlist">
+	
+			<div class="main">
+				<div class="title"><a href="web.html" class="logo">길라잡이</a>
+					<ul class="titles">
+			  			<li class="title1"><a href="sub1.html">앱 사용법</a></li>
+			  			<li class="title2"><a href="sub2.html">스마트폰 사용법</a></li>
+			  			<li class="title3"><a href="sub3.html">앱 연습해보기</a></li>
+			  			<li class="title4"><a href="sub4.html">질문하기</a></li>
+					</ul>
+				</div>
+
+				<img class="button" src="../images/button3.png" onclick="change()">
+				
+				<div class="talks">
+					<img class="talk_1" src="../images/talk4.png" style="z-index: 1;" id="talk1">
+				</div>
+			</div>
+
+			<div class="contents">
+				<div class="q">
+					<a href="../html/sub4.html"><img class="q111" src="../images/q111.png"></a>
+					<a href="../html/sub4_1.html"><img class="q222" src="../images/q222.png"></a>
+					<img class="q333" src="../images/q333.png">
+				</div>
+				<div class="storys">
+					<img class="story1" src="../images/story6.png">
+					<img class="story2" src="../images/story4.png">
+					<img class="story3" src="../images/story2.png">
+				</div>
+				
+				<div class="writes">
+					<img class="write" src="../images/write.png">
+				</div>
+				<div class="numbers">
+					<img class="number" src="../images/number.png">
+				</div>
+				
+				<div class="line1">
+					<img class="line" src="../images/line.png">
+				</div>
+				
+				
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front"><img src="../images/BOX.png"></div>
+						<div class="flip-card-back"><img src="../images/BOX2.png"></div>
+					</div>
+				</div>
+				
+			</div>
+
+	</div>
+</body>
+</html>

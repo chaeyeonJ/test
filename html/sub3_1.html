@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>  실버세대를 위한 앱 가이드 : 길라잡이 </title>
+	<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/sub3_1.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script>
+	var ch1 = 0;
+	function change(){
+		
+		ch1++;
+
+		if(ch1%2==0){
+			document.getElementById("talk1").src = "../images/talk.png";
+		}
+		else{
+			document.getElementById("talk1").src = "../images/talk_1.png";
+		}
+
+	}
+	</script>
+
+</head>
+<body>
+			<div class="main">
+				<div class="title"><a href="web.html" class="logo">길라잡이</a>
+					<ul class="titles">
+			  			<li class="title1"><a href="sub1.html">앱 사용법</a></li>
+			  			<li class="title2"><a href="sub2.html">스마트폰 사용법</a></li>
+			  			<li class="title3"><a href="sub3.html">앱 연습해보기</a></li>
+			  			<li class="title4"><a href="sub4.html">질문하기</a></li>
+					</ul>
+				</div>
+
+				<img class="button" src="../images/button3.png" onclick="change()">
+				
+				<div class="talks">
+					<img class="talk_1" src="../images/talk3.png" style="z-index: 1;" id="talk1">
+				</div>
+
+			</div>
+
+
+			<div class="games"><img class="game" src="../images/game.png"></div>
+
+			<a href="../html/sub3_1_X.html"><div class="box" ></div></a>
+			<a href="../html/sub3_1_X.html"><div class="box1"></div></a>
+
+			<a href="../html/sub3_2.html"><div class="boxbig"></div></a>
+
+			<a href="../html/sub3_1_X.html"><div class="box2"></div></a>
+			<a href="../html/sub3_1_X.html"><div class="box3"></div></a>
+			<a href="../html/sub3_1_X.html"><div class="box4"></div></a>
+			<a href="../html/sub3_1_X.html"><div class="box5"></div></a>
+			<a href="../html/sub3_1_X.html"><div class="box6"></div></a>
+			<style type="text/css">
+				.box {position: absolute; width:50px; height:50px; background:blue; margin-left: 1070px; margin-top: -890px; z-index: 1; opacity: 0;}
+				.box1 {position: absolute; width:50px; height:50px; background:blue; margin-left: 1130px; margin-top: -890px; z-index: 1; opacity: 0;}
+
+				.boxbig{position: absolute; width:500px; height:350px; background:blue; margin-left: 710px; margin-top: -660px; z-index: 1; opacity: 0;}
+
+				.box2 {position: absolute; width:50px; height:50px; background:blue; margin-left: 1025px; margin-top: -110px; z-index: 1; opacity: 0;}
+				.box3 {position: absolute; width:50px; height:50px; background:blue; margin-left: 1120px; margin-top: -110px; z-index: 1; opacity: 0;}
+				.box4 {position: absolute; width:50px; height:50px; background:blue; margin-left: 830px; margin-top: -110px; z-index: 1; opacity: 0;}
+				.box5 {position: absolute; width:50px; height:50px; background:blue; margin-left: 930px; margin-top: -110px; z-index: 1; opacity: 0;}
+				.box6 {position: absolute; width:50px; height:50px; background:blue; margin-left: 740px; margin-top: -110px; z-index: 1; opacity: 0;}
+			</style>
+
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title> 실버세대를 위한 앱 가이드:길라잡이 </title>
+	<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/sub2.css">
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+
+	<script>
+	var ch1 = 0;
+	function change(){
+		
+		ch1++;
+
+		if(ch1%2==0){
+			document.getElementById("talk1").src = "../images/talk.png";
+		}
+		else{
+			document.getElementById("talk1").src = "../images/talk_1.png";
+		}
+
+	}
+
+	var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length} ;
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+	</script>
+
+</head>
+<body>
+	<div class="contentlist">
+	
+		<div class="main">
+			<div class="title"><a href="web.html" class="logo">길라잡이</a>
+				<ul class="titles">
+		  			<li class="title1"><a href="sub1.html">앱 사용법</a></li>
+		  			<li class="title2"><a href="sub2.html">스마트폰 사용법</a></li>
+		 			<li class="title3"><a href="sub3.html">앱 연습해보기</a></li>
+		  			<li class="title4"><a href="sub4.html">질문하기</a></li>
+				</ul>
+			</div>
+			<div class="move">
+				<img class="button" src="../images/button3.png" onclick="change()">
+				
+				<div class="talks">
+					<img class="talk_1" src="../images/talk2.png" style="z-index: 1;" id="talk1">
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Slider main container -->
+		<div class="swiper-container">
+		    <!-- Additional required wrapper -->
+		    <div class="swiper-wrapper">
+		        <!-- Slides -->
+		        <div class="swiper-slide"><img src="../images/phone1.png"></div>
+		        <div class="swiper-slide"><img src="../images/phone2.png"></div>
+		        <div class="swiper-slide"><img class="phone3" src="../images/phone3.png"></div>
+		    </div>
+		    <div class="swiper-button-prev"></div>
+	    	<div class="swiper-button-next"></div>
+		</div>
+
+	</div>
+
+	<script>
+	  var mySwiper = new Swiper ('.swiper-container', {
+	  	loop:true,
+	  	simulateTouch:false,
+	  	navigation: {
+		    nextEl: '.swiper-button-next',
+		    prevEl: '.swiper-button-prev',
+		  },
+	  })
+
+  	</script>
+
+</body>
+</html>
+
+
+
+
+
+
