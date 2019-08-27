@@ -1,0 +1,96 @@
+.contentlist { width:1920; height:1080; margin: 0 auto; vertical-align: center;}
+
+.main{background-color: #f7f7f7; width:1920; height: 514px; z-index: 2;} 
+
+.title{ color: #f9c021; font-size: 40px; font-family: 'Black Han Sans'; height:160px; vertical-align:middle; }
+
+.title li { display:inline-block; margin-right:60px; }
+
+.title .logo { margin-right:475px; margin-left: 350px;}
+
+
+.titles {
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Gothic A1' ;
+  line-height:165px; box-sizing:border-box;
+  vertical-align:middle;
+}
+
+/* title1 */
+.title1 {
+  color: #8b8b8b;
+}
+.title1:hover {
+  color: #1e53cc;
+}
+
+
+/* title2 */
+.title2 {
+  color: #1e53cc;
+}
+
+/* title3 */
+.title3 {
+  color: #8b8b8b;
+}
+
+.title3:hover {
+  color: #1e53cc;
+}
+
+/* title4 */
+.title4 {
+  color: #8b8b8b;
+}
+
+.title4:hover {
+  color: #1e53cc;
+}
+
+.button {
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 45px 45px 62px 62px;
+  margin-left: 390px;
+  margin-top: 10px;
+  box-shadow: 0 10px #ccc;
+  width: 100px;
+  height: 125px;
+}
+
+.button:active {
+  box-shadow: 0 6px #bbb;
+  transform: translateY(4px);
+}
+
+.smart1{ width: 600px; height: 260px; margin-left: 660px; margin-top: 100px;}
+
+
+.phone1{width: 1244px; height: 1635px; margin-top: 150px; margin-left: 320px;}
+
+
+.nexts{
+  position: fixed;
+  right: 200px;
+  bottom: 10px;
+  z-index:100
+}
+.fix{position:fixed;_position:absolute;width:100%;top:0;z-index:100}
+
+
+.talks{position: relative;}
+.talk_1{position: absolute; margin-left: 590px; margin-top: -130px;}
+.talk{position: absolute; margin-left: 590px; margin-top: -130px; }
+
+.swiper-slide{margin-top: 70px;}
+.swiper-slide{text-align: center;}
+div.swiper-button-prev{background-image: url("../images/next1.png"); width: 100px; height: 100px; background-size: 100px 100px; left: 150px; position: fixed; margin: 170px 0px 0px 0px;}
+div.swiper-button-next{background-image: url("../images/next1_1.png"); width: 100px; height: 100px; background-size: 100px 100px; right: 150px; position: fixed; margin: 170px 0px 0px 0px;}
+
+.phone3{width: 2000px; height: 3400px; margin-top: -630px; margin-bottom: -500px;}

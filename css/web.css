@@ -1,0 +1,36 @@
+body {overflow-x: hidden; overflow-y:hidden; background-color: #f9c021;}
+.contentlist { width:1920; height:1080; margin: 0 auto; position:relative; margin-left: 250px; float: right;}
+
+.title {font-family: 'Gothic A1', sans-serif; color: #fff; font-size: 60px; position: absolute;
+			font-weight: 400; line-height: -1px; margin-top: 300px; margin-left: 150px;}
+.bold { color: #fff; font-family: 'Black Han Sans', sans-serif; font-size: 76px;
+		margin-top: 5px;}
+.text {font-family: 'Gothic A1', sans-serif; font-size: 27px; color: #fff; position: absolute;
+		margin-top: 30px; font-weight: 300; line-height:1.3;}
+
+.gf { float: left; }
+.men {width: 837px; height:856px; margin-left:950px; margin-bottom: 540px;}
+
+.pics {position: relative; margin-left: 40px; margin-top: -40px;}
+.pic1 { width:120px; height:115px; position: absolute; margin-top: -1480px;
+		margin-left: 1300px;}
+.pic2 { width:110px; height:115px; position: absolute; margin-top: -1358px;
+		margin-left: 1390px;}
+.pic3 { width:125px; height:120px; position: absolute; margin-top: -1360px;
+		margin-left: 1550px;}
+.pic4 { width:85px; height:110px; position: absolute; margin-top: -1236px;
+		margin-left: 1270px;}
+.pic5 { width:90px; height:100px; position: absolute; margin-top: -1470px;
+		margin-left: 1490px;}
+
+.cate { position: fixed; margin-left: 70px; margin-top: 240px;}
+.cate01 {position: absolute; margin-top: 710px; width: 410px; height: 340px; transition: 0.7s all;}
+.cate01:hover{margin-top: 510px;}
+.cate02 {position: absolute; margin-top: 710px; margin-left: 374px; width: 410px; height: 340px; transition: 0.7s all;}
+.cate02:hover{margin-top: 510px;}
+.cate03 {position: absolute; margin-top: 710px; margin-left: 749px; width: 410px; height: 340px; transition: 0.7s all;}
+.cate03:hover{margin-top: 510px;}
+.cate04 {position: absolute; margin-top: 710px; margin-left: 1125px; width: 410px; height: 340px; transition: 0.7s all;}
+.cate04:hover{margin-top: 510px;}
+
+/* :hover{ top:-100px;} */
